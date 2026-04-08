@@ -2,10 +2,11 @@
 alias, competition и другие настройки
 ## alias
 делаем два варинат
-1) setup_aliases.sh
-curl -sL https://your-server/setup_aliases.sh | bash
-2) прямо вставить в терминал (~/.bash_aliases)
+1) install_aliases.sh
+curl -sL https://raw.githubusercontent.com/darkgsl/SetUpBash/main/install_aliases.sh | bash && source ~/.bashrc
+2) прямо вставить в терминал (~/.bash_aliases) скрипт из install_aliases.sh
 
+Пример. Последняя версия в install_aliases.sh
 cat >> ~/.bash_aliases << 'EOF'
 # Git aliases
 alias gs='git status'
