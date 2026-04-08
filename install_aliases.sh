@@ -12,6 +12,7 @@ alias gd='git diff'
 alias d=docker
 alias di="docker images"
 alias dps="docker ps"
+alias dc="docker compose"
 # k8s
 alias k='kubectl'
 alias kgp='kubectl get pods'
