@@ -5,6 +5,13 @@ alias, competition и другие настройки
 1) install_aliases.sh
 curl -sL https://raw.githubusercontent.com/darkgsl/SetUpBash/main/install_aliases.sh | bash && source ~/.bashrc
 2) прямо вставить в терминал (~/.bash_aliases) скрипт из install_aliases.sh
+3) MACOS
+ 1)run code from /.zsh_aliases
+ 2)add  to ~/.zshrc and source ~/.zshrc
+if [ -f ~/.zsh_aliases ]; then
+    source ~/.zsh_aliases
+fi
+
 
 Пример. Последняя версия в install_aliases.sh
 cat >> ~/.bash_aliases << 'EOF'
